@@ -7,10 +7,18 @@ import AirportList from './AirportList'
 import HomeList from './HomeList'
 
 class App extends Component {
-  render() {
+    constructor() {
+        super()
+        this.state = {
+            airportChecked: {},
+            homeChecked: {}
+        }
+    }
+
+    render() {
     return (
         <div>
-            <Hero />
+            <Hero message='Welcome Message' />
             <BrowserRouter>
             <div>
                 <Nav />
@@ -23,7 +31,7 @@ class App extends Component {
             <Footer />
         </div>
     )
-  }
+    }
 }
 
 export default App

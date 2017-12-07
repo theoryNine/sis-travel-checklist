@@ -1,9 +1,12 @@
 import React from 'react'
+import TextSection from './TextSection'
 
 class HomeList extends React.Component {
     render() {
         return (
-            <p>List at Home</p>
+            <div>
+                <TextSection contents='Before you Leave' />
+            </div>
         )
     }
 }
