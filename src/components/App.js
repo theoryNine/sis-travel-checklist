@@ -7,6 +7,10 @@ import AirportList from './AirportList'
 import HomeList from './HomeList'
 
 class App extends Component {
+    componentDidMount() {
+        document.title = 'Come Visit NY!'
+    }
+
     render() {
     return (
         <div>
