@@ -7,14 +7,6 @@ import AirportList from './AirportList'
 import HomeList from './HomeList'
 
 class App extends Component {
-    constructor() {
-        super()
-        this.state = {
-            airportChecked: {},
-            homeChecked: {}
-        }
-    }
-
     render() {
     return (
         <div>
@@ -23,8 +15,8 @@ class App extends Component {
             <div>
                 <Nav />
                     <Switch>
-                        <Route exact path='/' component={HomeList} />
-                        <Route path='/airport' component={AirportList} />
+                        <Route exact path='/' component={ HomeList } />
+                        <Route path='/airport' component={ AirportList } />
                     </Switch>
             </div>
             </BrowserRouter>
