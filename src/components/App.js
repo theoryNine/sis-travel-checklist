@@ -11,12 +11,14 @@ class App extends Component {
     return (
         <div>
             <Hero />
-            <Nav />
             <BrowserRouter>
-                <Switch>
-                    <Route exact path='/' component={HomeList} />
-                    <Route exact path='/airport' component={AirportList} />
-                </Switch>
+            <div>
+                <Nav />
+                    <Switch>
+                        <Route exact path='/' component={HomeList} />
+                        <Route path='/airport' component={AirportList} />
+                    </Switch>
+            </div>
             </BrowserRouter>
             <Footer />
         </div>
