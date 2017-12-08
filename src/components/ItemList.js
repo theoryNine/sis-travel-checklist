@@ -1,6 +1,6 @@
 import React from 'react'
-import ListItem from './ListItem'
 import shortid from 'shortid'
+import ListItem from './ListItem'
 
 class ItemList extends React.Component {
     render() {

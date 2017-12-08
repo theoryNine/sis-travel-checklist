@@ -46,6 +46,11 @@ h5 {
   position: fixed;
   top: 0;
   width: 100%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.nav-container:hover {
+  border-bottom: 5px solid #4515f0;
 }
 .nav-container ul {
   -webkit-box-align: stretch;
