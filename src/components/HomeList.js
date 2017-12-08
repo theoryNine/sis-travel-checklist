@@ -8,8 +8,8 @@ class HomeList extends React.Component {
             <div>
                 <TextSection contents='Before you Leave' />
                 <ul>
-                    <ListItem contents='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, maiores.' />
-                    <ListItem contents='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, maiores.' />
+                    <ListItem key={1} contents='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, maiores.' />
+                    <ListItem key={2} contents='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, maiores.' />
                 </ul>
             </div>
         )

@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Nav from './Nav'
 import Hero from './Hero'
 import Footer from './Footer'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import AirportList from './AirportList'
 import HomeList from './HomeList'
 

@@ -8,12 +8,12 @@ class AirportList extends React.Component {
             <div>
                 <TextSection contents='Some Stuff At the Airport' />
                 <ul>
-                    <ListItem contents='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, maiores.' />
-                    <ListItem contents='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, maiores.' />
-                    <ListItem contents='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, maiores.' />
-                    <ListItem contents='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, maiores.' />
-                    <ListItem contents='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, maiores.' />
-                    <ListItem contents='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, maiores.' />
+                    <ListItem key={1} contents='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, maiores.' />
+                    <ListItem key={2} contents='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, maiores.' />
+                    <ListItem key={3} contents='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, maiores.' />
+                    <ListItem key={4} contents='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, maiores.' />
+                    <ListItem key={5} contents='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, maiores.' />
+                    <ListItem key={6} contents='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, maiores.' />
                 </ul>
             </div>
         )
