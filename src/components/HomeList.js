@@ -1,16 +1,17 @@
 import React from 'react'
 import TextSection from './TextSection'
-import ListItem from './ListItem'
+import ItemList from './ItemList'
 
 class HomeList extends React.Component {
     render() {
+        const listContents = [
+            'Home',
+            'List'
+        ]
         return (
             <div>
-                <TextSection contents='Before you Leave' />
-                <ul>
-                    <ListItem key={1} contents='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, maiores.' />
-                    <ListItem key={2} contents='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, maiores.' />
-                </ul>
+                <TextSection contents='Some Stuff At the Airport' />
+                <ItemList list={listContents} />
             </div>
         )
     }

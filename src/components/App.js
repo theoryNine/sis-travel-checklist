@@ -8,13 +8,13 @@ import HomeList from './HomeList'
 
 class App extends Component {
     componentDidMount() {
-        document.title = 'Come Visit NY!'
+        document.title = 'Visit NY!'
     }
 
     render() {
     return (
         <div>
-            <Hero message='Welcome Message' />
+            <Hero message='Visit NY' />
             <BrowserRouter>
             <div>
                 <Nav />
