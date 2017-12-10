@@ -3,7 +3,10 @@ import React from 'react'
 class ListItem extends React.Component {
     render() {
         return (
-            <li className='list-item'>{ this.props.contents }</li>
+         <div className='list-item'>
+          <input type='checkbox' />
+          <label>{ this.props.contents }</label>
+         </div>
         )
     }
 }

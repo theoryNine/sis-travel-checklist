@@ -1,15 +1,14 @@
 import React from 'react'
-import shortid from 'shortid'
 import ListItem from './ListItem'
 
 class ItemList extends React.Component {
     render() {
         return (
-            <ul className='item-list'>
-                {this.props.list.map(function (listValue) {
-                    return <ListItem key={shortid.generate()} contents={ listValue } />
+            <div className='item-list'>
+                {this.props.list.map(function (listValue, index) {
+                    return <ListItem key={ index } contents={ listValue } />
                 })}
-            </ul>
+            </div>
         )
     }
 }

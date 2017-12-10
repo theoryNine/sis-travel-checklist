@@ -1,3 +1,21 @@
 .list-item
+   display grid
+   grid-column-gap 10px
+   grid-template-columns 16px auto
    line-height 1.5rem
    margin-bottom 10px
+   & input
+      align-self start
+      margin-top 6px
+      opacity 1
+      transition opacity .3s ease
+      &:checked
+         opacity .5
+      &:checked+label
+         opacity .5
+         text-decoration line-through
+   & label
+      align-self start
+      opacity 1
+      transition opacity .3s ease
+      
