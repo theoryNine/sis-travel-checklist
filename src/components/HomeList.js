@@ -5,7 +5,7 @@ import ItemList from './ItemList'
 class HomeList extends React.Component {
     render() {
         const listContents = [
-            "Have an ID with a pic",
+            "Have an ID with a picture of you for the airport (school ID?)",
             "Print off the flight confirmation I email you, have one for each of you",
             "$25 for each bag you wanna check",
             "Backpack or small bag to carry on the plane",
