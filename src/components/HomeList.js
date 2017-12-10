@@ -21,8 +21,9 @@ class HomeList extends React.Component {
         return (
             <div className='page-list'>
                 <div className='list-container'>
-                    <TextSection contents="These are the things you'll wanna make sure you bring 
-                    from home." />
+                    <TextSection 
+                        contents="These are the things you'll wanna make sure you bring from home."
+                    />
                     <ItemList list={listContents} />
                 </div>
             </div>

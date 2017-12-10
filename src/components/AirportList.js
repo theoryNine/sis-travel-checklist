@@ -17,7 +17,9 @@ class AirportList extends React.Component {
         return (
             <div className='page-list'>
                 <div className='list-container'>
-                    <TextSection contents="Some notes for the airport! If you have any problems or need help getting around, ask anyone that works in the airport or call/text me!" />
+                    <TextSection 
+                        contents="Some notes for the airport! If you have any problems or need help getting around, ask anyone that works in the airport or call/text me!"
+                    />
                     <ItemList list={list} />
                 </div>
             </div>
