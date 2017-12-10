@@ -10,9 +10,11 @@ class AirportList extends React.Component {
             "If you want to buy anything on the plane, you have to have a card to pay"
         ]
         return (
-            <div>
-                <TextSection contents='Some Stuff At the Airport' />
-                <ItemList list={list} />
+            <div className='page-list'>
+                <div className='list-container'>
+                    <TextSection contents='Some Stuff At the Airport' />
+                    <ItemList list={list} />
+                </div>
             </div>
         )
     }

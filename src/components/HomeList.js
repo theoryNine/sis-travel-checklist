@@ -19,9 +19,12 @@ class HomeList extends React.Component {
             "Toothbrush"
         ]
         return (
-            <div>
-                <TextSection contents='Stuff to bring from home' />
-                <ItemList list={listContents} />
+            <div className='page-list'>
+                <div className='list-container'>
+                    <TextSection contents="These are the things you'll wanna make sure you bring 
+                    from home." />
+                    <ItemList list={listContents} />
+                </div>
             </div>
         )
     }
