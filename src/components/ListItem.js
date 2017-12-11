@@ -31,8 +31,8 @@ class ListItem extends React.Component {
    render() {
       const { isChecked } = this.state
       return (
-         <div className='list-item'>
-            <input type='checkbox' checked={isChecked} onClick={ this.handleClick } />
+         <div className='list-item' onClick={ this.handleClick }>
+            <input type='checkbox' checked={isChecked} />
             <label>{ this.props.contents }</label>
          </div>
       )
